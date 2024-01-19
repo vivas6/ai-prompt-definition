@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "name": "Intent",
+    "description": "A prompt configuration file for intent prompt.",
+    "inputs": [
+        {
+            "id": "id1",
+            "prompt": {
+                "text":"Some text here."
+            },
+            "model": "gpt-3.5-turbo",
+            "description": "Sample description.",
+            "type": "string"
+        }
+    ]
+}

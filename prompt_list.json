@@ -1,0 +1,26 @@
+{
+    "version": "1.0.0",
+    "info" : {
+        "name": "Prompt Listing",
+        "description": "A listing of all the prompts available in the library.",
+        "author": "Vineethkumar Alil Vasudevan"
+    },
+
+    "prompts": [
+        {
+            "name": "ClassificationPrompt",
+            "description": "A prompt configuration file for classification prompt.",
+            "ref": "classification.json"
+        },
+        {
+            "name": "IntentPrompt",
+            "description": "A prompt configuration file for intent prompt.",
+            "ref": "intent.json"
+        },
+        {
+            "name": "YesNoPrompt",
+            "description": "A prompt configuration file for yes/no prompt.",
+            "ref": "yesno.json"
+        }
+    ]
+}

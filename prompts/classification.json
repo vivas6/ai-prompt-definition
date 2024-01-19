@@ -1,0 +1,36 @@
+{
+    "version": "1.0.0",
+    "name": "Text Classification",
+    "description": "Classify text as positive, neutral or negative.",
+    "inputs": [
+        {
+            "id": "classify-1",
+            "prompt": {
+                "context": "Please classify the following text as positive, neutral or negative.",
+                "text": "The Design of Everyday Things.",
+                "custom": "any custom text"
+            },
+            "model": "gpt-3.5-turbo",
+            "description": "The prompt to classify.",
+            "type": "string"
+        },
+        {
+            "id": "classify-2",
+            "prompt": {
+                "text":"Some text here."
+            },
+            "model": "gpt-3.5-turbo",
+            "description": "The prompt to classify.",
+            "type": "string"
+        },
+        {
+            "id": "classify-3",
+            "prompt": {
+                "text":"Some text here."
+            },
+            "model": "gpt-3.5-turbo",
+            "description": "The prompt to classify.",
+            "type": "string"
+        }
+    ]
+}

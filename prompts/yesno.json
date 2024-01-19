@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "name": "YesNo",
+    "description": "A prompt configuration file for yes/no prompt.",
+    "inputs": [
+        {
+            "id": "text1",
+            "prompt": {
+                "text": "Some text here."
+            },
+            "model": "gpt-3.5-turbo",
+            "description": "Sample description.",
+            "type": "string"
+        }
+    ]
+}
