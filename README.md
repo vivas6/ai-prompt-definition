@@ -1,4 +1,4 @@
-# Prompt Definition
+# GenAI Prompt Definition
 GenAI prompting is an art of constructing natural language input that LLM like ChatGPT can understand and respond back with an output. Often, this is an iterative development process to get into an optimal input for LLM.  
 
 This repo can help you in your educational or small scale GenAI project to store the list of prompts that you developed, with its corresponding OpenAI API parameters. So, you are free from memorising all the prompts and confs that you developed!
@@ -26,7 +26,7 @@ make run <ID>
 ```
 
 #### Prerequisites  
-At present, this repository only supports ChatGPT LLM, but can easily be extended to other LLMs. To test your prompts with ChatGPT, OPEN AI API KEY has to be created and set in the env variable OPENAI_API_KEY.  
+At present, this repository only supports ChatGPT LLM, but can be easily extended to other LLMs. To test your prompts with ChatGPT, OPEN AI API KEY has to be created and set in the env variable OPENAI_API_KEY.  
 
 ### Thoughts:  
 * Why shouldn't we come up with a standard prompt specification for managing prompts for multiple LLMs?   
